@@ -103,6 +103,8 @@ header nav ul li a:hover {
     background-size: cover;
     background-position: center;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .hero h2{
@@ -271,3 +273,32 @@ footer ul li a:hover {
     border-radius: 15px;
     box-shadow: 5px 5px 5px var(--text);
 }
+
+/* MEDIA QUERY FOR TABLET SCREENS AND SMALLER */
+@media screen and (max-width: 1116px) {
+    header{
+        padding: 8px;
+    }
+
+    header nav ul {
+        min-height: 50px;
+        justify-content: center;
+        margin: 100px 100px 100px 100px;
+        padding: 8px;        
+    }
+
+    .hero h2 {
+        font-size: 25px;
+        padding-right: 20px;
+    }
+
+    .header3 {
+        font-size: 25px;
+    }
+
+    .about-me p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+}
+
