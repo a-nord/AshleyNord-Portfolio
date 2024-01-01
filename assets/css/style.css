@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 /* color variables to make it simple */
 :root {
     --rosepink: #FF66CC;
@@ -36,7 +39,7 @@ header {
     justify-content: flex-end;
     flex-wrap: wrap;
     padding: 25px;
-    }
+}
 
 /* section of the header with name and image */
 header h1{
@@ -51,7 +54,7 @@ header h1{
     border: 10px solid var(--pink);   
 }
 .avatar {
-    border: 2.5px solid var(--pink);
+    border: 5px solid var(--pink);
     border-radius: 50%;
     width: 30%;
     position: absolute;
@@ -90,9 +93,10 @@ header nav ul li a:hover {
     border-radius: 15px;
     box-shadow: 5px 5px 5px var(--text);
     font-size: 27px;
+    border: 10px solid var(--pink); 
 }
 
-
+/* hero section  */
 .hero{
     background-image: url("../images/heroimage.gif");
     height: 250px;
@@ -108,3 +112,34 @@ header nav ul li a:hover {
     margin: 150px 0px 0px 950px;
     font-weight: bold;   
 }
+
+main{
+    display: block;
+    flex-wrap: wrap;
+}
+
+/* side headers formatting */
+.header3 {
+    border-right: 5px solid var(--pink);
+    min-height: 100%;
+    text-align: right;
+    padding-right: 40px;
+    min-width: 20%;
+    max-width: 20%;
+    font-size: 30px;
+}
+
+/* about me section styling start */
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 30px;
+}
+
+.about-me p {
+    padding: 0 30px;    
+    width: 100%;
+    text-align: justify;
+}
+/* about me section styling end */
