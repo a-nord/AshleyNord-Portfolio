@@ -36,5 +36,6 @@ THEN I am presented with a responsive layout that adapts to my viewport</li>
 <h2>Preview</h2>
 <p>The following animation shows the web application's appearance and functionality:
 </p>
-<img src="#" alt="Gif of the page that viewers should see with header, links and a preview of the content of the website.">
-<a href="#">💖Ashley Nord's Portfolio💖</a>
+<img src="./assets/images/preview.PNG" alt="Gif of the page that viewers should see with header, links and a preview of the content of the website.">
+<a href="https://a-nord.github.io/AshleyNord-Portfolio/">💖Ashley Nord's Portfolio💖</a>
+<a href="https://github.com/a-nord/AshleyNord-Portfolio">💖Ashley Nord's Repository💖</a>
